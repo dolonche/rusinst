@@ -1,0 +1,30 @@
+.new-books-slider {
+  &__title {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 24px;
+  }
+  &__carousel {
+    &-wrapper {
+      @extend %container;
+    }
+  }
+  .new-books-slider__carousel button.owl-dot {
+    background-color: transparent;
+    outline: none;
+    &:hover {
+      background-color: transparent;
+    }
+    &.active span {
+      background-color: #202A3B;
+    }
+  }
+}

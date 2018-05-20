@@ -2,4 +2,13 @@
 @import 'partial/global/fonts';
 @import 'partial/global/variable';
 @import 'partial/global/mixins';
-@import 'partial/blocks/heade';
+@import 'partial/owl-carousel/owl.carousel';
+@import 'partial/owl-carousel/owl.theme.default';
+@import 'partial/blocks/page';
+@import 'partial/blocks/page-header';
+@import 'partial/blocks/main-nav';
+@import 'partial/blocks/main-slider';
+@import 'partial/blocks/new-books-slider';
+@import 'partial/blocks/most-read-slider';
+@import 'partial/blocks/catalog';
+@import 'partial/blocks/page-footer';

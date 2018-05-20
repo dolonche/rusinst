@@ -1,0 +1,35 @@
+.main-nav {
+  flex-grow: 2;
+  padding-left: 17px;
+  box-sizing: border-box;
+  &__list {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    height: 100%;
+    &-item {
+      a {
+        text-decoration: none;
+        color: #333;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 11px;
+        display: block;
+        margin-top: 35px;
+        position: relative;
+        &::after {
+          content: "/";
+          color: #ececec;
+          position: absolute;
+          left: calc(100% + 27px);
+        }
+      }
+      &:last-of-type a::after {
+        display: none;
+      }
+    }
+  }
+}

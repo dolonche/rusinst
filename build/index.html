@@ -2,17 +2,233 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/styles.min.css">
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
-<body>
-	<header>
-	  <div>🍊🗝️</div>
-	</header>
-	<!-- body -->
-	
+<body class="page">
+  <div class="page-header__wrapper">
+    <header class="page-header">
+      <div class="page-header__top-wrapper">
+        <div class="page-header__top">
+          <div class="page-header__top-name">Институт русской цивилизации</div>
+          <div class="page-header__top-search">
+            <form action="" class="page-header__top-search-form">
+              <input type="text" class="page-header__top-search-form-field"><button class="page-header__top-search-form-btn"><img src="img/search.svg" alt=""></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="page-header__bottom-wrapper">
+        <div class="page-header__bottom">
+          <div class="page-header__bottom-logo"><a href="index.html"><img src="http://new.rusinst.ru/images/logo.svg" alt="" class="page-header__bottom-logo-img"></a></div>
+          <nav class="main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__list-item"><a href="">Об институте</a></li>
+              <li class="main-nav__list-item"><a href="">Труды института</a></li>
+              <li class="main-nav__list-item"><a href="">Авторы</a></li>
+              <li class="main-nav__list-item"><a href="">Новости</a></li>
+              <li class="main-nav__list-item"><a href="">Библиотека</a></li>
+              <li class="main-nav__list-item"><a href="">Архив</a></li>
+              <li class="main-nav__list-item"><a href="">Видеоматериалы</a></li>
+              <li class="main-nav__list-item"><a href="">Музей</a></li>
+              <li class="main-nav__list-item"><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="main-slider__wrapper">
+    <section class="main-slider">
+      <div class="owl-carousel owl-theme main-slider__carousel">
+        <div class="item">
+          <img src="http://new.rusinst.ru/images/vechnaja_rossiya.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="http://new.rusinst.ru/trudi-i-materialy-ubileenogo-vseslavyanskogo-sezda.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="new-books-slider__wrapper">
+    <section class="new-books-slider">
+      <h3 class="new-books-slider__title">Новые издания</h3>
+      <div class="new-books-slider__carousel-wrapper">
+        <div class="owl-carousel owl-theme new-books-slider__carousel">
+          <div class="item">
+            <a href="">
+          <img src="http://new.rusinst.ru/assets/cache/images/poster/A.K.Burcev-Etnograficheskie_trudy_T1-240x298-617.png" alt="">
+          </a>
+          </div>
+          <div class="item">
+            <a href="">
+          <img src="http://new.rusinst.ru/assets/cache/images/poster/A.K.Burcev-Etnograficheskie_trudy_T1-240x298-617.png" alt="">
+          </a>
+          </div>
+          <div class="item">
+            <a href="">
+          <img src="http://new.rusinst.ru/assets/cache/images/poster/A.K.Burcev-Etnograficheskie_trudy_T1-240x298-617.png" alt="">
+          </a>
+          </div>
+          <div class="item">
+            <a href="">
+          <img src="http://new.rusinst.ru/assets/cache/images/poster/A.K.Burcev-Etnograficheskie_trudy_T1-240x298-617.png" alt="">
+          </a>
+          </div>
+          <div class="item">
+            <a href="">
+          <img src="http://new.rusinst.ru/assets/cache/images/poster/A.K.Burcev-Etnograficheskie_trudy_T1-240x298-617.png" alt="">
+          </a>
+          </div>
+          <div class="item">
+            <a href="">
+          <img src="http://new.rusinst.ru/assets/cache/images/poster/A.K.Burcev-Etnograficheskie_trudy_T1-240x298-617.png" alt="">
+          </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="most-read-slider__wrapper">
+    <section class="most-read-slider">
+      <h3 class="most-read-slider__title">Самые читаемые книги</h3>
+      <div class="most-read-slider__carousel-wrapper">
+        <div class="owl-carousel owl-theme most-read-slider__carousel">
+          <div class="item">
+            <div class="most-read-slider__carousel-item">
+              <a data-toggle="modal" data-target="#quick-view" href="" class="popup-button">
+                <div class="most-read-slider__carousel-item-img popup-button">
+                  <img src="http://new.rusinst.ru/assets/cache/images/poster/M.K.Azadovskij-Istoriya_russkoj_folkloristiki-240x298-268.png" alt="Самодержавие духа" class="popup-button">
+                </div>
+              </a>
+              <div class="most-read-slider__carousel-item-detail">
+                <h5><a href="/trudy-instituta/russkaya-civilizaciya1/samoderzhavie_duha.html">Самодержавие духа</a></h5>
+                <div class="most-read-slider__carousel-item-detail-author ">
+                  <span>Азадовский М. К.</span>
+                </div>
+                <div class="most-read-slider__carousel-item-detail-series">
+                  Серия «Русская цивилизация»
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="catalog__wrapper">
+    <section class="catalog">
+      <div class="catalog__sidebar">
+        <div class="catalog__sidebar-title">Разделы</div>
+        <nav class="catalog__sidebar-nav">
+          <ul class="catalog__sidebar-nav-list">
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+            <li class="catalog__sidebar-nav-list-item"><a href="">Энциклопедии и словари</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="catalog__list-wrapper">
+        <div class="catalog__list-title">Труды института</div>
+        <ul class="catalog__list">
+          <li class="catalog__list-item">
+            <div class="catalog__list-item-img">
+              <img src="http://new.rusinst.ru/assets/cache/images/poster/A.V.Tereshenko-Byt_russkogo_naroda_t2-240x298-9ad.png" alt="Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)" class="book-image">
+            </div>
+            <h6><a href="/trudy-instituta/enciklopedii-i-slovari1/russkiy_narod__etnograficheskaya_enciklopediya__v_2_tomah__tom_1_a__n.html" class="book-link">Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)</a></h6>
+          </li>
+          <li class="catalog__list-item">
+            <div class="catalog__list-item-img">
+              <img src="http://new.rusinst.ru/assets/cache/images/poster/A.V.Tereshenko-Byt_russkogo_naroda_t2-240x298-9ad.png" alt="Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)" class="book-image">
+            </div>
+            <h6><a href="/trudy-instituta/enciklopedii-i-slovari1/russkiy_narod__etnograficheskaya_enciklopediya__v_2_tomah__tom_1_a__n.html" class="book-link">Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)</a></h6>
+          </li>
+          <li class="catalog__list-item">
+            <div class="catalog__list-item-img">
+              <img src="http://new.rusinst.ru/assets/cache/images/poster/A.V.Tereshenko-Byt_russkogo_naroda_t2-240x298-9ad.png" alt="Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)" class="book-image">
+            </div>
+            <h6><a href="/trudy-instituta/enciklopedii-i-slovari1/russkiy_narod__etnograficheskaya_enciklopediya__v_2_tomah__tom_1_a__n.html" class="book-link">Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)</a></h6>
+          </li>
+          <li class="catalog__list-item">
+            <div class="catalog__list-item-img">
+              <img src="http://new.rusinst.ru/assets/cache/images/poster/A.V.Tereshenko-Byt_russkogo_naroda_t2-240x298-9ad.png" alt="Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)" class="book-image">
+            </div>
+            <h6><a href="/trudy-instituta/enciklopedii-i-slovari1/russkiy_narod__etnograficheskaya_enciklopediya__v_2_tomah__tom_1_a__n.html" class="book-link">Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)</a></h6>
+          </li>
+          <li class="catalog__list-item">
+            <div class="catalog__list-item-img">
+              <img src="http://new.rusinst.ru/assets/cache/images/poster/A.V.Tereshenko-Byt_russkogo_naroda_t2-240x298-9ad.png" alt="Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)" class="book-image">
+            </div>
+            <h6><a href="/trudy-instituta/enciklopedii-i-slovari1/russkiy_narod__etnograficheskaya_enciklopediya__v_2_tomah__tom_1_a__n.html" class="book-link">Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)</a></h6>
+          </li>
+          <li class="catalog__list-item">
+            <div class="catalog__list-item-img">
+              <img src="http://new.rusinst.ru/assets/cache/images/poster/A.V.Tereshenko-Byt_russkogo_naroda_t2-240x298-9ad.png" alt="Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)" class="book-image">
+            </div>
+            <h6><a href="/trudy-instituta/enciklopedii-i-slovari1/russkiy_narod__etnograficheskaya_enciklopediya__v_2_tomah__tom_1_a__n.html" class="book-link">Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)</a></h6>
+          </li>
+          <li class="catalog__list-item">
+            <div class="catalog__list-item-img">
+              <img src="http://new.rusinst.ru/assets/cache/images/poster/A.V.Tereshenko-Byt_russkogo_naroda_t2-240x298-9ad.png" alt="Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)" class="book-image">
+            </div>
+            <h6><a href="/trudy-instituta/enciklopedii-i-slovari1/russkiy_narod__etnograficheskaya_enciklopediya__v_2_tomah__tom_1_a__n.html" class="book-link">Русский народ. Этнографическая энциклопедия. В 2 томах. Том 1 (А – Н)</a></h6>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <div class="page-footer__wrapper">
+    <footer class="page-footer">
+      <div class="page-footer__contacts">
+        <div class="page-footer__logo">
+          <a href="index-1.html"><img src="http://new.rusinst.ru/images/logo-white.svg" alt=""></a>
+          <div class="page-footer__logo-name">Институт русской цивилизиции</div>
+        </div>
+        <p>Направлять отзывы и предложения можно по адресу: 121170, Москва, а/я 18.</p>
+        <ul class="page-footer__contacts-list">
+          <li>Москва, ул. Большой Предтеченский переулок, д.&nbsp;27/29 стр.2</li>
+          <li>+7 (495) 605-25-35</li>
+        </ul>
+      </div>
+      <div class="page-footer__menu">
+        <h4>Меню</h4>
+        <ul class="page-footer__menu-list">
+          <li class="page-footer__menu-list-item"><a href="/ob-institute.html" title="Об институте">Об институте</a></li>
+          <li class="page-footer__menu-list-item"><a href="/trudy-instituta.html" title="Труды института">Труды института</a></li>
+          <li class="page-footer__menu-list-item"><a href="/avtory.html" title="Авторы">Авторы</a></li>
+          <li class="page-footer__menu-list-item"><a href="servisy/novosti.html" title="Новости">Новости</a></li>
+          <li class="page-footer__menu-list-item"><a href="servisy/biblioteka.html" title="Библиотека">Библиотека</a></li>
+          <li class="page-footer__menu-list-item"><a href="servisy/arhiv.html" title="Архив">Архив</a></li>
+          <li class="page-footer__menu-list-item"><a href="servisy/videomaterialy.html" title="Видеоматериалы">Видеоматериалы</a></li>
+          <li class="page-footer__menu-list-item"><a href="servisy/muzej.html" title="Музей">Музей</a></li>
+          <li class="page-footer__menu-list-item"><a href="/kontakty.html" title="Контакты">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="page-footer__newsletter">
+        <h4>Еженедельная рассылка</h4>
+        <form class="page-footer__newsletter-form">
+          <input class="form-control.newsletter" type="text" placeholder="Оставьте свой Email">
+          <button>Подпишись</button>
+        </form>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/settings.min.js"></script>
+
 </body>
 
 </html>

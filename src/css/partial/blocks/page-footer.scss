@@ -1,0 +1,66 @@
+.page-footer {
+  &__wrapper {
+    background-color: rgb(6, 8, 15);
+  }
+  @extend %container;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  &__logo{
+    display: flex;
+    font-family: "Izhitsa";
+    font-size: 28px;
+    img{
+      width: 60px;
+      margin-right: 20px;
+    }
+    &-name{
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+  &__contacts{
+    width: 40%;
+    &-list{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  &__menu{
+    &-list{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      &-item{
+        margin-bottom: 10px;
+        a{
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+  &__newsletter{
+    &-form{
+      display: flex;
+      input{
+        background-color: transparent;
+        color: #fff;
+        padding: 7px;
+        border: 1px solid #fff;
+      }
+      button{
+        background-color: transparent;
+        color: #fff;
+        padding: 7px;
+        border: 1px solid #fff;
+      }
+    }
+  }
+}
